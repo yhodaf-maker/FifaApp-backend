@@ -16,4 +16,4 @@ app.include_router(players.router, prefix="/api")
 
 @app.get("/health")
 def health():
-    return {"status": "ok"}
+    return {"status": "healthy"}
